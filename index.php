@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($input)) {
 
     // プロンプトの設定
     $data = [
-        "model" => "gpt-4o-mini", // 指定のモデル名
+        "model" => "gpt-5-mini", // 指定のモデル名
         "messages" => [
             [
                 "role" => "system",
